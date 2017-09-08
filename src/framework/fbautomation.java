@@ -78,7 +78,7 @@ public class fbautomation {
 	{
 	   try
 	   {
-			List<WebElement> buttons  =driver.findElements(By.xpath(".//div[@class='control-group']//following::input[@name='sex']"));
+			List<WebElement> buttons  =driver.findElements(By.xpath(POMTest.objbutton));
 			System.out.println(buttons.size());
 			for(int i=0 ; i<buttons.size();i++)
 			{
